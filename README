@@ -1,0 +1,25 @@
+Environment and Dependencies
+
+This program was build on 64 bit linux, g++ (Ubuntu/Linaro 4.7.3-1ubuntu1) 4.7.3
+Install pcap library before running.
+
+
+To the code - 
+
+1) Make run.sh executable
+2) Run 'run.sh' - It will run make and then start the program with sudo privledges.
+
+Execution - 
+
+1) It prints a possible scan as soon as it detects it
+2) To stop, press 'CTRL+C', it will print statistics of each host seen on the network 
+	and then it will quit.
+
+
+
+Peculiarities - 
+
+*   While Syn scanning only one SYNACK and one RST is noticed from mutiple closed ports. 
+	Ideally there should be one RST	sent back from each of the 999 closed ports on my host
+*   Sometimes while running nmap and the port scanner on the same host, some FIN packets are not 
+	captured.
