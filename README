@@ -19,5 +19,5 @@ Execution -
 Peculiarities - 
 
 1) While Syn scanning only one SYNACK and one RST is noticed from mutiple closed ports.	
-2) Ideally there should be one RST sent back from each of the 999 closed ports on my host
+2) Ideally there should be one RST sent back from each of the 999 closed ports
 3)Sometimes while running nmap and the port scanner on the same host, some FIN packets are not captured.
