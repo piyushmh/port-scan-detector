@@ -12,14 +12,12 @@ To the code -
 Execution - 
 
 1) It prints a possible scan as soon as it detects it
-2) To stop, press 'CTRL+C', it will print statistics of each host seen on the network 
-	and then it will quit.
+2) To stop, press 'CTRL+C', it will print statistics of each host seen on the network and then it will quit.
 
 
 
 Peculiarities - 
 
-*   While Syn scanning only one SYNACK and one RST is noticed from mutiple closed ports. 
-	Ideally there should be one RST	sent back from each of the 999 closed ports on my host
-*   Sometimes while running nmap and the port scanner on the same host, some FIN packets are not 
-	captured.
+1) While Syn scanning only one SYNACK and one RST is noticed from mutiple closed ports.	
+2) Ideally there should be one RST	sent back from each of the 999 closed ports on my host
+3)Sometimes while running nmap and the port scanner on the same host, some FIN packets are not captured.
